@@ -25,7 +25,7 @@ app.use(cors());
 
 //basic route
 app.get("/", (req, res) => {
-  res.send(database.users);
+  res.send("It's working");
 });
 
 //sign in
